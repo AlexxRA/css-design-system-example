@@ -116,8 +116,8 @@ select {
   gap: var(--gap, 1rem);
 }
 
-.flow > *:not(:first-child) {
-  margin-top: 1rem;
+.flow > *:where(:not(:first-child)) {
+  margin-top: 4rem;
   outline: 1px solid red;
 }
 
